@@ -16,26 +16,26 @@ html {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+    padding: 20px 210px 20px 130px;
     margin-bottom: 100px;
 }
 
 header .menu {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 30%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
 }
 
 header .menu li {
-    list-style: none;
+    margin: 0 10px;
 }
 
 header .menu li a {
     text-decoration: none;
-    color: #333;
+    color: #2c2f2e;
 }
 
 header .Cart {
@@ -54,15 +54,19 @@ header .Cart {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 30%;
 }
 
 .chon .menu2 li {
-    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+.chon .menu2 li a {
+    text-decoration: none;
+    color: #459d7a;
 }
 
 .Product {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 200px 0 130px;
@@ -74,8 +78,28 @@ header .Cart {
     flex-direction: column;
 }
 
-.Product .img_product .sanpham {
+.img_product {
     display: flex;
     align-items: center;
-    flex-direction: column;
+}
+
+.image1 {
+    position: relative;
+}
+
+.bestSelling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 28px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #9b6a1d;
+    border-radius: 16px;
+    background-color: #f6c870;
+    padding: 5px;
+    z-index: 1;
 }
