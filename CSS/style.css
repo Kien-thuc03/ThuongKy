@@ -66,6 +66,10 @@ header .Cart {
     color: #459d7a;
 }
 
+.chon .menu2 li img {
+    margin: 0 16px;
+}
+
 .Product {
     align-items: center;
     justify-content: space-between;
@@ -81,6 +85,7 @@ header .Cart {
 .img_product {
     display: flex;
     align-items: center;
+    padding-bottom: 130px;
 }
 
 .image1 {
@@ -102,4 +107,142 @@ header .Cart {
     background-color: #f6c870;
     padding: 5px;
     z-index: 1;
+}
+
+.Information {
+    padding-left: 90px;
+}
+
+.Price {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Rating {
+    display: flex;
+    align-items: center;
+}
+
+.Rating p {
+    margin-right: 25px;
+}
+
+.Commit {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.Choosen {
+    display: flex;
+    flex-direction: column;
+}
+
+.Choosen select {
+    padding-left: 6px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #f0edee;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Qty_btn {
+    display: flex;
+}
+
+.Qty_btn button {
+    width: 40px;
+    height: 44px;
+    border: none;
+    padding: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Qty_btn input {
+    width: 38px;
+    height: 44px;
+    margin: 0 16px;
+    border: none;
+    background-color: #f0edee;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+}
+
+.Add_to_Bag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Add_to_Bag button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 50px;
+    background-color: #459d7a;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: larger;
+    color: white;
+    border: none;
+}
+
+.List_RP {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.Buy_RP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestSeler_RP {
+    position: relative;
+}
+
+.Menu_choose {
+    padding-top: 130px;
+}
+
+.MC_List {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.MC_Item {
+    position: relative;
+    border-radius: 4px;
+}
+
+.MC_Item a {
+    display: inline-block;
+    padding: 12px 0;
+    font-size: 20px;
+    width: 216px;
+    text-decoration: none;
+    color: #459d7a;
+    text-align: center;
+}
+
+.MC_Item+.MC_Item::after {
+    display: block;
+    content: "";
+    height: 30px;
+    border-right: 2px solid #58a788;
+    opacity: 0.2;
+    position: absolute;
+    left: -2%;
+    top: 50%;
+    transform: translateY(-50%);
 }
