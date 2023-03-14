@@ -246,3 +246,266 @@ header .Cart {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.Benefits {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.Benefits_inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 130px;
+}
+
+.Benefits_inf h2 {
+    font-size: 20px;
+}
+
+.Ingredients {
+    padding-top: 85px;
+}
+
+.Ingredients_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.Ingredients_more {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.Ingredients_more button {
+    height: 34px;
+    width: 200px;
+    font-size: 15px;
+    border: 1px solid #459d7a;
+    color: #459d7a;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.How_to_use {
+    position: relative;
+}
+
+.How_to_use button {
+    width: 180px;
+    height: 55px;
+    font-size: 18px;
+    background-color: #181a20;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.Reviews_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.Reviews_title button {
+    height: 34px;
+    width: 200px;
+    font-size: 15px;
+    border: 1px solid #459d7a;
+    color: #459d7a;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Reviews_Avg_star {
+    display: flex;
+    align-items: center;
+}
+
+.star_rate {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #686d77;
+}
+
+.Reviews_Rate_cmt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Reviews_Cmt {
+    margin-left: 100px;
+}
+
+.page_list {
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.page_item {
+    margin: 0px 2px;
+}
+
+.page_item a {
+    display: inline-block;
+    color: #686d77;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 24px;
+}
+
+.FAQs_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+
+.FAQs_item {
+    width: 558px;
+    position: relative;
+    border: 1px solid #686d77;
+    border-radius: 6px;
+}
+
+.footer {
+    background-color: #1d2128;
+    color: #dcdee3;
+}
+
+.footer__wrap {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 92px;
+}
+
+.footer__left {
+    width: 480px;
+}
+
+.footer__wrap-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info__title {
+    font-size: 22px;
+}
+
+.footer-info__list {
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer-info__item+.footer-info__item {
+    margin-top: 18px;
+}
+
+.footer__lang {
+    width: 124px;
+    height: 34px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #dcdee3;
+    border-radius: 4px;
+    color: #dcdee3;
+    padding: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer__right {
+    width: 430px;
+}
+
+.promotion__title {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.promotion__desc {
+    font-size: 16px;
+}
+
+.promotion__input-email {
+    display: flex;
+    height: 48px;
+}
+
+.promotion__input {
+    height: 100%;
+    width: 300px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #1d2128;
+    border: 1px solid #dcdee3;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    color: white;
+    font-family: Arial, Helvetica, "FontAwesome", sans-serif;
+}
+
+.promotion__submit {
+    height: 100%;
+    width: 126px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    font-size: 16px;
+    color: #dcdee3;
+    background-color: #459d7a;
+}
+
+.promotion__submit:hover {
+    background-color: #6eb195;
+    cursor: pointer;
+}
+
+.footer__socials {
+    margin: 30px 0;
+}
+
+.footer__socials img+img {
+    margin-left: 4px;
+}
+
+.footer__socials img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.footer__copyright i {
+    font-size: 1px;
+    margin: 0 8px;
+}
+
+.footer__copyright i:first-of-type {
+    font-size: 1px;
+}
